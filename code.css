@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column; /* Элементы расположены по вертикали */
+    gap: 15px; /* Пространство между элементами формы */
+  }
+  
+  label, select, input {
+    display: block;
+    width: 100%; /* Поля занимают всю ширину */
+    margin-bottom: 10px;
+  }
+  
+  input[type="checkbox"], input[type="radio"] {
+    width: auto; /* Для чекбоксов и радио-кнопок ширина по умолчанию */
+  }
+  
+  label {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .checkbox-group, .radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Расстояние между опциями */
+  }
+  
+  button {
+    margin-top: 20px;
+    display: block;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Дополнительные стили для заголовков */
+  .checkbox-group label, .radio-group label {
+    font-size: 14px;
+    font-weight: normal;
+    margin-left: 20px; /* Чекбоксы и радио-кнопки чуть ближе к тексту */
+  }
+  
